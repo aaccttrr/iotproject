@@ -14,6 +14,7 @@ void setup() {
   Serial.begin(9600);
   groveServo.attach(pinServo);
   randomSeed(42);
+  groveServo.write(40);
 }
 
 void loop() {
@@ -22,12 +23,14 @@ void loop() {
   //generate random number
   weight = random(0,5);
   delay(1000);
+  
+  
 
   if(weight == 0){
-    groveServo.write(90);
-    delay(1000);
-    groveServo.write(-90);
-    delay(1000);
+    groveServo.write(140);
+    delay(2000);
+    groveServo.write(60);
+    delay(2000);
   }
   
 }
