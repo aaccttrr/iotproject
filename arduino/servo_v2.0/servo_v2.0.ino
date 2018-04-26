@@ -1,5 +1,5 @@
 //Adam Cotter
-//Working using random numbers instead of laod cell input
+//Working using random numbers instead of load cell input
 
 #include <Servo.h>
 #include "HX711.h"
@@ -23,6 +23,8 @@ void loop() {
   //generate random number
   weight = random(0,5);
   delay(1000);
+  Serial.print(weight);
+  delay(2000);
   
   
 
