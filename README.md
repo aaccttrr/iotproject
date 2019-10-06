@@ -5,4 +5,4 @@
 
 Built using an Arduino and the Arduino IDE, a HX711 stress sensor and a servo motor.
 
-![IMG_5390](Images and Videos/IMG_5390.JPG?raw=true)
+![IMG_5390]('Images and Videos'/IMG_5390.JPG?raw=true)
